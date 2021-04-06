@@ -1,0 +1,17 @@
+name: Milchreisfan
+version: 1.0.0
+api: 3.0.0
+main: Milchreisfan\FeedAndHeal\Main
+author: Milchreisfan
+load: STARTUP
+website: https://github.de/Milchreisfan
+
+commands:
+  feed:
+    description: Fülle deine Hungerleiste auf!
+    usage: "/feed"
+    permission: feed.cmd
+  heal:
+    description: Fülle deine Herzensleiste auf!
+    usage: "/heal"
+    permission: heal.cmd
